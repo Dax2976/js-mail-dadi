@@ -5,7 +5,7 @@ let emailList = ['hashdah@gmail.com', 'redside@gmail.com','greenside@gmail.com',
 console.log(emailList)
 let email = document.getElementById('email')
 // autenticazione dobbiamo dargli una costante
-let auth = false && true
+let auth = false
 
 // funzione tasto 
 // inizio calcolci se l'email è presente nel sistema, in caso ci sia comparira prosegui in verde in caso sia errata o non sia presente nel sistema si avra un messaggio di errore (controllo dati o errore di sistema)
